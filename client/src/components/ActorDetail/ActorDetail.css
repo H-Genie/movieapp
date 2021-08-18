@@ -1,0 +1,55 @@
+.scroll::-webkit-scrollbar {
+    border-radius: 8px;
+    border: 2px solid rgba(23, 23, 23);
+    margin-top: 1rem;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid rgba(23, 23, 23);
+    background-color: #1890ff;
+}
+
+.scroll::-webkit-scrollbar-track {
+    border-radius: 8px;
+}
+
+.noImage {
+    width: 300px;
+    height: 450px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actor_top,
+.actor_bottom {
+    display: flex;
+    gap: 3rem;
+}
+
+.credits {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.credits h2 {
+    margin: 0;
+    margin-right: 1rem;
+}
+.credits select {
+    height: fit-content;
+}
+
+@media only screen and (max-width: 1024px) {
+    .actor_bottom {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .actor_top {
+        display: block;
+    }
+}
