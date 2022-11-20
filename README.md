@@ -1,1 +1,1 @@
-https://genie-movieapp.herokuapp.com/
+https://genie-movieapp-h-genie.koyeb.app/
