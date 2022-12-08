@@ -1,1 +1,1 @@
-https://genie-movieapp-h-genie.koyeb.app/
+https://genie-movieapp.onrender.com
